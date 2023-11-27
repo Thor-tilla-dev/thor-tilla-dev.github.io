@@ -19,7 +19,7 @@
   "scripts": {
     "start": "craco start",
     "build": "craco build",
-    "test": "craco test --env=jsdom",
+    "test": "jest",
     "lint": "eslint src --ext .js,.jsx,.ts,.tsx",
     "lint:fix": "eslint src --ext .js,.jsx,.ts,.tsx --fix",
     "eject": "react-scripts eject"
@@ -34,8 +34,9 @@
     "@babel/core": "^7.14.6",
     "@babel/preset-env": "^7.16.11",
     "@babel/preset-react": "^7.16.7",
+    "@babel/preset-typescript": "^7.23.3",
     "@craco/craco": "^7.1.0",
-    "@testing-library/react": "^14.1.2",
+    "@testing-library/react": "^13.1",
     "@types/react-router": "^5.1.18",
     "@types/react-router-dom": "^5.3.3",
     "babel-jest": "^27.4.6",
