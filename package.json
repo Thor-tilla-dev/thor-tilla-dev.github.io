@@ -4,7 +4,6 @@
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "@types/jest": "^27.5.2",
     "@types/node": "^16.18.65",
@@ -36,7 +35,7 @@
     "@babel/preset-env": "^7.16.11",
     "@babel/preset-react": "^7.16.7",
     "@craco/craco": "^5.9.0",
-    "@testing-library/react": "12.1.5",
+    "@testing-library/react": "^14.1.2",
     "@types/react-router": "^5.1.18",
     "@types/react-router-dom": "^5.3.3",
     "babel-jest": "^27.4.6",
